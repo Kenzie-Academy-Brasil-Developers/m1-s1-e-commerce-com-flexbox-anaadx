@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+}
+
+body{
+    margin: 0;
+}
+
+.menu {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+  .menu-flex {
+    display: flex;
+    align-items: center;
+  }
+  .menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+  }
+  .menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+  }
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #585E65;
+  }
+  .menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4C6EF5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .boxMain{
+    display: flex;
+    justify-content: center; /* Os cards internos 'boxItem' ficaram com espaços propocionais entre eles */
+    width: 100%;
+    background-color: #E1E1E1;
+
+  }
+
+  .boxItem{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    width: 1200px;
+    border-radius: 8px; /* Propriedade para deixar a borda arredondada */ 
+    gap: 34px 20px;
+    padding: 0;
+    
+  }
+
+  img, figure {
+      width: 200px;
+      margin: 0;
+      align-self: center;
+  }
+ 
+  a{
+    display:flex;
+    justify-content: center;
+  }
+   
+  img {
+      width: 100%;
+  }
+
+  .boxItem li{
+    margin-left: 0%;
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    gap: 25px;
+  }
+
+  button{
+      display: block;
+      padding: 10px;
+      color: white;
+      width: 100%;
+      margin: 0 auto;
+      background-color: #4C6EF5;
+      border-radius: 5px;
+      border: 0;
+  }
+
+  p, span{
+      font-weight: 600;
+  }
+
+.escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
