@@ -93,6 +93,7 @@ body{
     justify-content: space-between;
     min-height: 300px;
     gap: 25px;
+    margin-bottom: 16px;
   }
 
   button{
