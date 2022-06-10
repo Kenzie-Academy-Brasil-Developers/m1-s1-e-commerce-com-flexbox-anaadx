@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Lojinha</title>
-    <meta name="description" content="Aqui você encontra as melhores promoções de eletrônicos!">
+    <meta name="description" content="aqui é a sua lojinha">
     <link rel=icon href="./img/inteligencia-artificial.png">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lojinha</title>
 </head>
 <body>
     <header class="menu">
@@ -31,72 +32,95 @@
         </div>
       </header>
 
-      <div class="boxMain">
-        <ul style="list-style:none;" class="boxItem">
-            <li><figure><a href=""><img src="./img/1.png" alt="Tv"/></a></figure>
-            <div class="escrito">               
-                <p>Smart TV 50" UHD 4K Kenzie 50AU7700, Processador Crystal 4K, Tela...</p>
-                <span>R$ 2.000,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
+        <div class="pai">
+            <ul style="list-style:none;" class="ul-dois">
 
-            <li><figure><a href=""><img src="./img/2.png" alt="Notebook Kenzie"/></a></figure>
-            <div class="escrito">
-                <p>Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...</p>
-                <span>R$ 4.600,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
+                <div class="primeira-coluna">
+                    <li class="card">
+                        <div class="itens-card"> 
+                            <figure><a href=""><img src="./img/1.png" alt="Tv"/></a></figure>
+        
+                            <div class="escrito">               
+                                <p>Smart TV 50" UHD 4K Kenzie 50AU7700, Processador Crystal 4K, Tela...</p>
+                                <span>R$ 2.000,00</span>
+                                <button type="submit">Adicionar ao carrinho</button>
+                            </div>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/2.png" alt="Notebook Kenzie"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Notebook Kenzie - i3501-M10P 15.6” HD 11ª Geração Intel Pentium Gold 4GB 128...</p>
+                            <span>R$ 4.600,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/3.png" alt="Condicionado Split Kenzie"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts</p>
+                            <span>R$ 2.000,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/4.png" alt="Geladeira Kenzie"/></a></figure>
+    
+                        <div class="escrito"> 
+                            <p>Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e</p>
+                            <span>R$ 2.568,40</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                </div>
 
-            <li><figure><a href=""><img src="./img/3.png" alt="Condicionado Split Kenzie"/></a></figure>
-            <div class="escrito">
-                <p>Ar Condicionado Split Kenzie 12.000 BTUs Springer Midea Frio - 220 Volts</p>
-                <span>R$ 2.000,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
-
-            <li><figure><a href=""><img src="./img/4.png" alt="Geladeira Kenzie"/></a></figure>
-            <div class="escrito"> 
-                <p>Geladeira Kenzie BRM44HK Frost Free Duplex com Compartimento Extrafrio e</p>
-                <span>R$ 2.568,40</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
-
-            <li><figure><a href=""><img src="./img/5.png" alt="Smartphone Kenzie Brasil"/></a></figure>
-            <div class="escrito">
-                <p>Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...</p>
-                <span>R$ 2.000,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
-
-            <li><figure><a href=""><img src="./img/6.png" alt="Fritadeira Elétrica sem Óleo/Air Fryer"/></a></figure>
-            <div class="escrito">
-                <p>Fritadeira Elétrica sem Óleo/Air Fryer  - Family-IV AF-30I Preta 3,5L</p>
-                <span>R$ 400,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
-
-            <li><figure><a href=""><img src="./img/7.png" alt="Smart TV LED"/></a></figure>
-            <div class="escrito">
-                <p>Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...</p>
-                <span>R$ 1.870,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
-
-            <li><figure><a href=""><img src="./img/8.png" alt="Cadeira Gamer Giratória"/></a></figure>
-            <div class="escrito">
-                <p>Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta</p>
-                <span>R$ 1.240,00</span>
-                <button type="submit">Adicionar ao carrinho</button>
-            </div>
-            </li>
+                <div class="segunda-coluna">                   
+                    <li class="card">
+                        <figure><a href=""><img src="./img/5.png" alt="Smartphone Kenzie Brasil"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Smartphone Kenzie Brasil A03 Core Preto 32GB, Câmera Traseira 8 MP, Tela...</p>
+                            <span>R$ 2.000,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/6.png" alt="Fritadeira Elétrica sem Óleo/Air Fryer"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Fritadeira Elétrica sem Óleo/Air Fryer  - Family-IV AF-30I Preta 3,5L</p>
+                            <span>R$ 400,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/7.png" alt="Smart TV LED"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Smart TV LED 43” Full HD AOC Roku 43S5195/78 com Wi-fi, Controle...</p>
+                            <span>R$ 1.870,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+    
+                    <li class="card">
+                        <figure><a href=""><img src="./img/8.png" alt="Cadeira Gamer Giratória"/></a></figure>
+    
+                        <div class="escrito">
+                            <p>Cadeira Gamer Giratória Red System com Apoio Cabeça Frisokar Preta</p>
+                            <span>R$ 1.240,00</span>
+                            <button type="submit">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                </div>
+            </ul>
         </div>
-
 </body>
 </html>
